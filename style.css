@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://image.pbs.org/video-assets/9M1OT5O-asset-mezzanine-16x9-SZ2mk8S.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+.card {
+  width: 550px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.2s;
+
+  padding-bottom: 15px;
+}
+input {
+  border: 0px;
+  border-bottom: 1px solid rgba(26, 26, 219, 0.64);
+  width: 250px;
+  font-size: 24px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    border-bottom: 2px solid blue;
+  }
+  &::placeholder {
+    opacity: 0.5;
+  }
+}
+button {
+  background-color: rgb(48, 48, 199);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  &:hover {
+    background-color: blue;
+  }
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+img {
+  object-fit: cover;
+  width: 450px;
+  height: 250px;
+  border: 1px solid #111;
+  transition: all 0.2s;
+}
+h1 {
+  text-align: start;
+}
+ul {
+  transition: all 0.2s;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+}
+li {
+  transition: all 0.2s;
+  font-size: 24px;
+}
